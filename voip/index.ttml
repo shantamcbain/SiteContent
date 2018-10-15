@@ -1,0 +1,56 @@
+<h2>Join our VOIP Phone System</h2>
+<p>Save LOTS of money on your mountly phone bills.
+
+The First step is to <a href="http://www.voipinterface.net/interface/signup.php?UID=141935" onclick="window.open(this.href, 'Createyouraccount', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=800,height=800'); return false;">Secure your phone number</a>
+
+<li><a href="/webphone/softphone.html" onclick="window.open(this.href, 'ComServWebPhone', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=500,height=1000'); return false;">WebPhone</a></li>
+	<li><a href="https://voip.computersystemconsulting.ca/cgi-bin/index.cgi?page=VoipPage" onclick="window.open(this.href, 'VoipSystem', 'resizable=yes,status=yes,location=yes,toolbar=yes,menubar=yes,fullscreen=no,scrollbars=yes,dependent=yes'); return false;">Application</a></li>
+	<li><a href="/webphone/mobile.html" onclick="window.open(this.href, 'Mobile', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=500,height=1000'); return false;">Mobile phone </a>Not working</li>
+	<li><a cart.php="" href="http://voip.computersystemconsulting.ca" http:="" whmcs="" www.computersystemconsulting.ca="">Register your domain with us.</a></li>
+	<li><a href="https://voip.computersystemconsulting.ca/webphone" onclick="window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;">admin</a></li>
+</ul>
+
+
+<p>Charge your account with a minimum of $10. You may use paypal to do this.</p>
+
+<p>Next Order your <a href='http://www.voipinterface.net/interface/dids.php?UID=141935' target='Order Phone number'>Phone number</a> <b>You should be able to do this in your newly created account. click the Order did in the services drop down list. </b> Once your order Has been placed we will connect your number with your account.</p>
+
+<p>List of BC DIDS that have texting.</p>
+<ol>
+	<li>Aldergrove,</li>
+	<li>Cloverdale</li>
+   <li>Fort Langley</li>
+   <li>Langley</li>
+   <li>New Westminster</li>
+   <li>Newton</li>
+   <li>North Vancouver</li>
+   <li>Port Coquitlam</li>
+   <li>Richmond</li>
+   <li>Victoria</li>
+   <li>Vancouver</li>
+   <li>West Vancouver 851 numbers</li>
+   <li>Whalley 852</li>
+</ol>
+
+
+<p>We also have Tole free number for US, Canada and international. Vanity number International numbers, These Allow incoming calls at a fixed monthly fee.
+
+<h1>To access your account</h1>
+<p>Use the email address and password you created your account with.</p>
+
+
+<form action='http://www.voipinterface.net/interface/login.php' method=POST target=_NEW>
+<input type=HIDDEN name=UID value='141935'>
+<input type=HIDDEN name=action value=DirectLogin>
+<!-- <input type=HIDDEN name=col_email value='{Your_client_email}'>
+<input type=HIDDEN name=col_password value='{Your_client_password}'> -->
+<input type=SUBMIT name=SUBMIT value=Connect>
+</FORM>
+
+<h1>Voice Mail</h1>
+
+<p> All accounts come with voice mail services. Create your voice mail account by clicking Voice mail in the services menu.</p>
+
+
+
+<a href='http://voip.computersystemconsulting.ca' target='_blank' name='Our VOIP sytem'>voip.computersystemconsulting.ca</a>

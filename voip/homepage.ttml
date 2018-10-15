@@ -1,0 +1,50 @@
+<h1>Join our VOIP Phone System</h1>
+<p>Save LOTS of money on your monthly phone bills.
+
+The First step is to create an account on the voip interface  Where you will manage your accont services such as voice mail, call forwarding ect. You  <a href='http://www.voipinterface.net/interface/signup.php?UID=141935' onclick='window.open(this.href, 'Createyouraccount', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=800,height=800'); return false;'><h2>Order your phone number</h2></a> Here as well.
+
+
+<p>Charge your account with a minimum of $10. You may use paypal to do this. We recommend you chose the basic plan at 2 cents a minute to use up 2:00 worth of phone time. </p>
+
+<p>Next Order your <!-- <a href='http://www.voipinterface.net/interface/dids.php?UID=141935' target='Order Phone number'> -->Phone number<!--</a> --> <b>You should be able to do this in your newly created account. click the Order did in the services drop down list. </b> Once your order Has been placed we will connect your number with your account.</p>
+
+<p><h2>List of BC DIDS that have texting.</h2></p>
+<ol>
+	<li>Aldergrove,</li>
+	<li>Cloverdale</li>
+   <li>Fort Langley</li>
+   <li>Langley</li>
+   <li>New Westminster</li>
+   <li>Newton</li>
+   <li>North Vancouver</li>
+   <li>Port Coquitlam</li>
+   <li>Richmond</li>
+   <li>Victoria</li>
+   <li>Vancouver</li>
+   <li>West Vancouver 851 numbers</li>
+   <li>Whalley 852</li>
+</ol>
+
+<p>Note on texting! It so far only work on android Zoiper in the free version. We are working on finding a Desktop SoftPhone that will work.</p>
+<p>We also have Tole free number for US, Canada and international. Vanity number International numbers, These Allow incoming calls at a fixed monthly fee.
+
+<h1>To access your account admin </h1>
+<p>Use the email address and password you created your account with.</p>
+
+
+<form action='http://www.voipinterface.net/interface/login.php' method=POST target=_NEW>
+<input type=HIDDEN name=UID value='141935'>
+<input type=HIDDEN name=action value=DirectLogin>
+<!-- <input type=HIDDEN name=col_email value='{Your_client_email}'>
+<input type=HIDDEN name=col_password value='{Your_client_password}'> -->
+<input type=SUBMIT name=SUBMIT value=Connect>
+</FORM>
+
+<h1>Voice Mail</h1>
+
+<p> All accounts come with voice mail services. Create your voice mail account by clicking Voice mail in the services menu.</p>
+
+<h2><a href="http://voip.computersystemconsulting.ca/cgi-bin/index_debug.cgi?submit_logon=on&site=VOIP">Create and account here </a></h2>
+<p>
+
+Please use the same username , password you used for phone and email address.  </p>

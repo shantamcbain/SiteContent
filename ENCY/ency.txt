@@ -1,0 +1,37 @@
+<h1>Our Encyclopedia is a database on living organism</h1>
+
+
+<p>We began life in a set of binders in the mid seventies. As a learning tool to record data. This physical data still in on the library shelves. The work done on this proved to be vary hard to maintain as it was entirely physically. Hand written, computer print outs with hand written updates. Vary hard to update, improve and share.</p>
+
+<p>This work lead to the creation of an easier way to update and navigate. Then share.
+This we divided into two parts. first was software to create and maintain Then distribution</p>
+
+<ol><li> <h2>Creation and data storage.</h2>
+  <ul><li>
+   <p>Our fist attempts was wp 5.1/2 for Dos. This was great as it was able to create a book that had internal links for references.    every thing you would expect from a good text book. </p>
+
+   <p>Another plus was it was the most commonly used document reader on the market at the time.</p></li>
+   
+    </li>
+    <li>Html pages Hand maintained http://forager.com was and still is an access here.</li>
+    <li>Delphi driven automated site. </li>
+    <li>Now on Perl cgi on a MySql database</li>
+    
+    </ul>
+ <li>nd  Distribution 
+  <li><h2>Mail and personal handouts</h2> Highly insufficient </li> 
+  <li>The Herb Patch. A Fido net BBS. No not the cell phone corporation. This was a world wide system of Local dial up computers that provided access to email files news groups. We maintained such a board for many years until the Internet became available.
+  </li>
+  <li><h2>The Internet</h2>
+  <p>When this became available it was the logical place to move the data. At first it was html pages created from the wp documents and the hand written ency  Virtually impossible to maintain We continued to create the pages in wp then export to html and uploaded to the site.</p></li>
+  <li><h2>Automated site. </h2> As it was apparent that manual editing the next incarnation of ency was a Delphi application that exported html pages. The cost of this solution was the only reason that this option was killed. </li>
+  <li><h2>Open source</h2> 
+   <p/>Perl was the strongest option then and now. To accomidate the fallowing </p>
+   <ul>
+    <li>Share data with as many people as possible by allowing many sites to show the data</li>
+    <li>Have as many people as possible add new data to the site.</li>
+    <li>Allow views of the data focus to sites according to their needs Ie the domain beemaster.ca shows bee related data only from the database.  forager.com will display the foraging and use related data.</li>
+   </ul>
+  </li>
+ </li>
+</ol>

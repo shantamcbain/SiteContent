@@ -1,0 +1,44 @@
+<h2>Co-generation</h2>
+
+<p>In it's simplest form Co-generation simply means using as much as possible the energy used in a given operations. As and example of this. </p>
+
+<p>A RV coach owner wants to get the most out off the energy produced by </p>
+<p>The generator produces the fallowing power in operation.
+
+<ul>
+  <li>Electricity You get about %20 </li>
+  <li>Heat %80 of the energy consumed is here</li>
+</ul></p>
+<p>The generator when it runs.
+The Gen set is mounted in the coach on the rear right. it exhaust to the back and cools by pulling air in from the side and blowing it below the vehicle.
+
+This lends itself well to our need to capture and use the %80 
+</p>
+<ul>
+ <li>Skirt the bus with a the front open. This forces all the air is forced to the front of the coach.This heats the entire under side of the coach with the heat it contains. </li>
+ <li>Make Sure the exhaust dose not get in the motor air intake.</li>
+
+</ul>
+<p>That takes care of the waste heat. </p>
+
+<p>Now for the electricity.</p>
+
+<p>Most generators work most efficiently at a constant load. In our example the generator powers all the ac regiments of the RV when not connected to mains. In our example this is solar with.</p>
+<ul>
+ <li>All electrical plug ins</li>
+ <li>Fridge</li>
+ <li>microwave/convection oven</li>
+ <li>Induction hot plate</li>
+ <li>Computers</li>
+ <li>Electric heat.</li>
+ <li>Hot waster. used for heating and domestic</li>
+ <li>Storage </li>
+ <li>12volt power</li>
+</ul>
+<p>Turn them on as need to balance the load.</p>
+
+<p>Here we have used both the output energies of the generator. The goal in our system to get the most of what we consume. </p>
+
+
+
+

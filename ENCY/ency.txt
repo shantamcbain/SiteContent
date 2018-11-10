@@ -30,7 +30,7 @@ This we divided into two parts. first was software to create and maintain Then d
    <ul>
     <li>Share data with as many people as possible by allowing many sites to show the data</li>
     <li>Have as many people as possible add new data to the site.</li>
-    <li>Allow views of the data focus to sites according to their needs Ie the domain beemaster.ca shows bee related data only from the database.  forager.com will display the foraging and use related data.</li>
+    <li>Allow views of the data focus to sites according to their needs Ie the domain beemaster.ca can enter data and display related to what bees reauire of plants</li>
    </ul>
   </li>
  </li>

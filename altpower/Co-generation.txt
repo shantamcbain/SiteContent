@@ -32,12 +32,14 @@ This lends itself well to our need to capture and use the %80
  <li>Computers</li>
  <li>Electric heat.</li>
  <li>Hot waster. used for heating and domestic</li>
- <li>Storage </li>
+ <li>Storage Primarily this is batteries.</li>
  <li>12volt power</li>
 </ul>
 <p>Turn them on as need to balance the load.</p>
 
 <p>Here we have used both the output energies of the generator. The goal in our system to get the most of what we consume. </p>
+
+
 
 
 

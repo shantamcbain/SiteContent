@@ -1,0 +1,35 @@
+<h1>Mail account maintenance.</h1>
+
+<p>Your email system on most servers are limited in available space. This is done to ensure that the entire server is not bogged down with to many stored messages. More importantly file attachments. Your host may limit the space you have available to store messages. You will no longer receive messages if you exceed your allocated drive space.</p>
+
+<p>Your mail will exist on the server until purged. This unfortunately this is a multi-step situation. You delete the email then empty the trash.</p>
+
+<p>Depending on your servers spam software, spam or junk. The mail reader you use, Trash or Archived.</p>
+<h2>Deleted, Archived and Spam.</h2>
+<ul>
+  <li><h3>Trash</h3> Mail you deleted</li>
+  <li<h3>>Archived.</h3> May be by year.</li>
+  <li><h3>Spam </h3> Some spam software will place spam here</li>
+  <li><h3>Junk</h3>Some spam software use this directory.</li>
+ </ul>
+ <h2>Other areas that store your mail</h2>
+ <ul>
+	<li><h3>Drafts.</h3> Mail your are working on.</li>
+	<li><h3>Sent mail, </h3>If you sent an email with an attachment it will reside here till you delete it.</li>
+	<li><h3>Out going</h3> Mail that failed on sending.</li>
+</ul>
+
+<p>You should on a Routine basis go though each of these directories and clear out the ones you no longer actually need. Some software such as Squirrel mail (one of the 3 default web readers on our system) have a system to by pass the trash bin. It also has a purge trash link to simplify the process.</p>
+
+<p>Most readers you must go to the directory and Select all and delete. This moves them to the trash. Emptying the trash will  delete them from the system permanently them. Deleting the trash also deletes the attachments as well. This is especially important if you send a lot of photos or files with your emails. A picture can eat a few megs a videos several gigs. Some mail systems will limit the maximum size of the attachment.</p>
+
+<h1>How can I limit the disk spaced used by an email.</h1>
+
+<ol>
+ <li>Compress the file. or convert it to the smallest available file size. Some readers will actually ask you to do this.</li>
+ <li>Use a file sharing system such as <a href="http://mega.nz" target="_blank">http://mega.nz</a>. You then simply give the link to the file instead of up loading the file to the server. This is vary useful for those that have low bandwidth connection to the internet. This uses both the drive space and the bandwidth of the file storage system. If you do a lot of picture sharing this can really help your web site as well.</li>
+ <li>Do a monthly or weekly removal of your directories. Sent mail, archives, etc. Keep only those that you think you really need.</li>
+ <li>Regularly empty your trash each mail session.</li>
+</ol>
+
+

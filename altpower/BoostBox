@@ -1,0 +1,15 @@
+<h1>Boost Box Conversion</h1>
+
+<p>This project is about changing the dead lead acid batteries to a more sustainable power source.The short life of lead acid system leads to a otherwise working boost box to being a worthless lump of electronic waste. This is primarily due to the lack of Battery management systems in lead acid construction. The individual cells are not monitored so a wracked cell will soon destroy the others shortening the battery life to about a year if you are lucky.</p>
+
+<p>In our conversion we are looking to prevent this problem by using lithium cells in the Battery pack with cell management with battery voltage limitations to keep the battery in good health. We will use a 4x1  module. We will parallel the modules to give the amp hours need to boost a vehicle with a dead battery.</p>
+
+<p>To provide the fast charge and discharge function for boosting we will use a supper capacitor setup. The unit we are converting is rated at 1400 amps  and 700 cranking amps. </p>
+
+<p>As the charge characteristics of lithium cell are different than lead acid we will likely have to change the charging system as well. In the end we should have a system that will last for many years instead of months.</p>
+
+<ul>
+  <li><h2>Disassembly and evaluation.</h2> We first need to disassemble the unit to see just what space we have available to put the batteries and the capacitor system. </li>
+  <li><h2>Design the battery modules, charger and Supper capacitor unit</h2> All this needs to fit into the space that the old batteries were in.</li>
+  <li><h2>Reassembly and testing</h2>We need now to reassemble the unit and test.</li>
+</ul>

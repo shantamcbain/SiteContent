@@ -1,0 +1,178 @@
+
+       P {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+       }
+
+       TD {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+           vertical-align : top;
+       }
+
+       TH {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+           vertical-align : top;
+           text-align : left
+       }
+
+       BODY {
+           color: black;
+           background:  #FFF3A6;
+           font-family : Verdana, Helvetica, sans-serif;
+       }
+       
+       A:link {
+           color: #000000;
+       }
+
+       A:visited {
+           color: #000000;
+       }
+
+       A:active {
+           color: #000000;
+       }
+
+/************************************************************
+*                   SECTION HEADER STYLINGS                 *
+************************************************************/
+
+       .sectionHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                color : #FFFFFF;
+                background : #000000;
+        }
+
+/************************************************************
+*                   TABLE HEADER STYLINGS                 *
+************************************************************/
+
+       .tableHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                color : black;
+                vertical-align : top; 
+                background : #8B90A0;
+        }
+/************************************************************
+*                   TABLE header login CELL STYLINGS                 *
+************************************************************/
+
+       .tablePageTopLoginCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                vertical-align : top; 
+           	text-align : right;
+        }
+/************************************************************
+*                   TABLE CELL STYLINGS                 *
+************************************************************/
+
+       .tablePageTopWelcomeCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                vertical-align : top; 
+           	text-align : left;
+        }
+
+/************************************************************
+*                   TABLE CELL STYLINGS                 *
+************************************************************/
+
+       .tableCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                vertical-align : top; 
+        }
+
+/************************************************************
+*                   TABLE ROW HEADER STYLINGS               *
+************************************************************/
+
+       .tableRowHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                background : #FFF3A6;
+                vertical-align : top; 
+                text-align : left
+        }
+/************************************************************
+*                   TABLE ROW STYLINGS                      *
+************************************************************/
+
+       .tableRowStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                background : #E5E5E5;
+                vertical-align : top; 
+        }
+
+/************************************************************
+*               APPLICATION SUB MENU STYLINGS               *
+************************************************************/
+
+       .applicationSubMenuStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 10px;
+                color : black;
+                background : white;
+        }
+
+       A.applicationSubMenuLinkStyle:link {
+           color: black;
+       }
+
+       A.applicationSubMenuLinkStyle:visited {
+           color: black;
+       }
+
+       A.applicationSubMenuLinkStyle:active {
+           color: black;
+       }
+
+/************************************************************
+*                   Warning box                             *
+************************************************************/
+
+       .warning {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 18px;
+                color : red;
+                background : #E5E5E5;
+                text-align: center; 
+                vertical-align : top;
+                border: medium green;
+                border-style: dashed;
+        }
+
+/************************************************************
+*                   Left Side Bar STYLINGS                      *
+************************************************************/
+
+       font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : black;
+                background : #FFF3A6;
+                vertical-align : top; 
+                text-align : right;
+        }
+
+       font.LeftSideBarNavStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 10px;
+                color : blue;
+                background : #FFF3A6;
+                vertical-align : top; 
+                text-align : right;
+        }

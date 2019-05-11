@@ -1,0 +1,269 @@
+
+       P {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+       }
+
+       TD {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+           vertical-align : top;
+       }
+
+       TH {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+           vertical-align : top;
+           text-align : left
+       }
+
+       BODY {
+           color: black;
+           background:  #FFFFFF;
+           font-family : Verdana, Helvetica, sans-serif;
+       }
+       
+       A:link {
+           color: #CC0000;
+       }
+
+       A:visited {
+           color: #990000;
+       }
+
+       A:active {
+           color: #660000;
+       }
+a { text-decoration: none }
+a:hover { color:#ff3333;
+          text-decoration: underline }
+          
+PRE {font-size: 10pt ;
+	 ;
+     font-family: Courier New, Courier, Lucida Console, Teletype, serif;
+     }
+
+CODE {font-size: 10pt ;
+     	font-family: Courier New, Courier, monospace, serif;
+     	}
+/************************************************************
+*                   TABLE TABLE STYLINGS                    *
+************************************************************/
+       .MainPageTable {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top; 
+                background : #FFFFFF;
+        }
+
+       .tableHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top; 
+                background : #FFFFFF;
+        }
+
+       .HeaderCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top; 
+                background : #FFFFFF;
+                
+        }
+       .TopHeaderBarStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top;
+                align : right; 
+                background : #FFFFFF;
+        }
+/************************************************************
+*                   SITE HEADER STYLINGS                 *
+************************************************************/
+       .HeaderTableStyle {
+                BACKGROUND:  #FFFFFF;
+                WIDTH:       90%;
+                BORDER:    0;
+       }
+
+/************************************************************
+*                   SECTION HEADER STYLINGS                 *
+************************************************************/
+
+       .sectionHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                color : #FFFFFF;
+                background : #000000;
+        }
+
+/************************************************************
+*                   TABLE HEADER STYLINGS                 *
+************************************************************/
+
+       .tableHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                color : black;
+                vertical-align : top;
+                background : #6699CC;
+        }
+/************************************************************
+*                   TABLE header login CELL STYLINGS                 *
+************************************************************/
+
+       .tablePageTopLoginCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : green;
+                vertical-align : top; 
+           	text-align : right;
+        }
+/************************************************************
+*                   TABLE CELL STYLINGS                 *
+************************************************************/
+
+       .tablePageTopWelcomeCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : green;
+                vertical-align : top; 
+           	text-align : left;
+        }
+
+/************************************************************
+*                   TABLE CELL STYLINGS                 *
+************************************************************/
+
+       .tableCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                vertical-align : top; 
+        }
+
+
+       .tableLeftCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                background : #FF9900;
+                vertical-align : top; 
+       }
+/************************************************************
+*                   TABLE ROW HEADER STYLINGS               *
+************************************************************/
+
+       .tableRowHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                background : #6699CC;
+                vertical-align : top; 
+                text-align : left
+        }
+/************************************************************
+*                   TABLE ROW STYLINGS                      *
+************************************************************/
+
+       .tableRowStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                background : #E5E5E5;
+                vertical-align : top; 
+        }
+
+/************************************************************
+*               APPLICATION SUB MENU STYLINGS               *
+************************************************************/
+
+       .applicationSubMenuStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 10px;
+                color : black;
+                background : white;
+        }
+
+       A.applicationSubMenuLinkStyle:link {
+           color: black;
+       }
+
+       A.applicationSubMenuLinkStyle:visited {
+           color: black;
+       }
+
+       A.applicationSubMenuLinkStyle:active {
+           color: black;
+       }
+
+/************************************************************
+*                   Warning box                             *
+************************************************************/
+
+       .warning {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 18px;
+                color : red;
+                background : #E5E5E5;
+                text-align: center; 
+                vertical-align : top;
+                border: medium green;
+                border-style: dashed;
+        }
+
+/************************************************************
+*                   Left Side Bar STYLINGS                      *
+************************************************************/
+
+       .LeftNavTableStyle {
+  
+                BACKGROUND:  #CC0000;
+                WIDTH:       90%;
+                BORDER:    0;
+                CELLSPACING: 2;
+                CELLPADDING: 0;
+ }
+      .NavtableHeaderCellStyle {
+                background :  #CC0000;
+                color : #FFFFFF;
+                vertical-align : top;
+                text-align: center;
+ }
+
+       font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #FFFFFF;
+                background :#CC0000;
+                vertical-align : top;
+                text-align : center;
+        }
+
+       .NavTableCellStyle {
+              border: 0;
+              background: #FF9900;
+              WIDTH:  20%;
+               text-align : left;
+         }
+
+
+       font.LeftSideBarNavStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : #CC0000;
+                background : #FF9900;
+                vertical-align : top;
+                text-align : center;
+        }
+ #navlist { list-style-image: 
+            url(http://www.extropia.com/graphics/template/pointerbk.gif); 
+          }
+
+ 

@@ -1,0 +1,599 @@
+      P {
+        font-family : dVerdana, Helvetica, sans-serif;
+        font-size : 20px;
+    }
+
+
+       TD {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 20px;
+           vertical-align : top;
+       }
+
+       TH {
+           font-family : Verdana, Helvetica, sans-serif;
+           font-size : 15px;
+           vertical-align : top;
+           text-align : left
+       }
+
+       BODY {
+           background-color: #ccffff;
+           color: black;
+           font-family : Verdana, Helvetica, sans-serif;
+	}       
+	
+       A:link {
+           color:  #48A0FF;
+       }
+
+       A:visited {
+           color: #37C3FF;
+       }
+
+  A:hover {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-weight: normal;
+ color: #3999FF;
+ text-decoration: underline;
+}
+     A:active {
+           color: #66FFFF;
+       }
+       
+/************************************************************
+*                   demnnstration list. STYLINGS            *
+************************************************************/
+/*
+
+demonstration.css
+
+Stylesheet for the demonstration of touch-friendly drop-down menus
+
+Created by Kate Morley - http://code.iamkate.com/ - and released under the terms
+of the CC0 1.0 Universal legal code:
+
+http://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+*/
+
+#demonstration > div{
+  width  : 10em;
+  margin : 0 auto 1.5em;
+}
+
+#dropdownCentred{
+  text-align : left;
+}
+
+#dropdownCentred > li{
+  text-align : left;
+}
+/************************************************************
+*                   dropdown list. STYLINGS            *
+************************************************************/
+.dropdown,
+.dropdown ul{
+  border     : 1px solid #66FFFF);
+  background : #66FFFF;
+  box-shadow : 0 0 4px rgba(0,0,0,0.25);
+}
+
+.dropdown ul{
+  left : -1px;
+}
+
+[dir=rtl] .dropdown ul{
+  right : -1px;
+}
+
+.dropdownVertical ul{
+  left : 100%;
+}
+
+.dropdown ul ul,
+.dropdownVertical ul{
+  top : -1px;
+}
+
+.dropdown span{
+  color       : #0000FF;
+  font-family : 'Patua One',sans-serif;
+  line-height : 2em;
+  text-shadow : 0 0 0.125em rgba(0,0,0,0.25);
+  cursor      : pointer;
+  transition  : background 0.2s;
+}
+
+.dropdown li:hover > span,
+.dropdown li.dropdownOpen > span{
+  background-color : #66ffff;
+}
+
+.dropdown > li > span{
+  padding    : 0 24px 0 0.5em;
+  background : url('http://code.iamkate.com/javascript/touch-friendly-drop-down-menus/arrow-down.svg') no-repeat right 13px;
+}
+
+[dir=rtl] .dropdown > li > span{
+  padding    : 0 0.5em 0 24px;
+  background : url('http://code.iamkate.com/javascript/touch-friendly-drop-down-menus/arrow-down.svg') no-repeat left 13px;
+}
+
+.dropdownVertical > li > span,
+.dropdown ul span{
+  padding    : 0 26px 0 0.5em;
+  background : url('http://code.iamkate.com/javascript/touch-friendly-drop-down-menus/arrow-right.svg') no-repeat right 11px;
+}
+
+[dir=rtl] .dropdown ul span{
+  padding    : 0 0.5em 0 26px;
+  background : url('http://code.iamkate.com/javascript/touch-friendly-drop-down-menus/arrow-left.svg') no-repeat left 11px;
+}
+
+.dropdown ul ul ul span,
+[dir=rtl] .dropdown ul ul ul span{
+  padding          : 0 0.5em;
+  background-image : none;
+}
+
+#dropdownMegaMenu li > div{
+  width   : 16em;
+  padding : 0.5em;
+}
+
+#dropdownMegaMenu li > div > div{
+  float : left;
+}
+
+#dropdownMegaMenu table{
+  margin : 0 auto 0 0;
+}
+
+#dropdownMegaMenu th,
+#dropdownMegaMenu td{
+  padding     : 0 0 0 0.5em;
+  color       : white;
+  font-family : 'Patua One',sans-serif;
+  text-align  : left;
+  text-shadow : 0 0 0.125em rgba(0,0,0,0.25);
+}
+
+.dropdown,
+.dropdown ul,
+.dropdown li{
+  margin  : 0;
+  padding : 0;
+}
+
+.dropdown ul,
+[dir=rtl] .dropdown > .dropdownLeftToRight > ul{
+  display  : none;
+  position : absolute;
+  top      : 100%;
+  left     : 0;
+  right    : auto;
+  z-index  : 1;
+}
+
+[dir=rtl] .dropdown ul,
+.dropdown > .dropdownRightToLeft > ul{
+  left  : auto;
+  right : 0;
+}
+
+.dropdown ul ul,
+[dir=rtl] .dropdown ul .dropdownLeftToRight ul{
+  top   : 0;
+  left  : 100%;
+  right : auto;
+}
+
+[dir=rtl] .dropdown ul ul,
+.dropdown ul .dropdownRightToLeft ul{
+  left  : auto;
+  right : 100%;
+}
+
+.dropdown li{
+  position        : relative;
+  display         : block;
+  list-style-type : none;
+}
+
+.dropdown > li{
+  display : inline-block;
+}
+
+.dropdown a,
+.dropdown span{
+  display         : block;
+  text-decoration : none;
+  white-space     : pre;
+}
+
+.dropdown li:hover > ul{
+  display : block;
+}
+
+.dropdownVertical{
+  display : inline-block;
+}
+
+.dropdownVertical > li{
+  display : block;
+}
+
+.dropdownVertical ul{
+  top  : 0;
+  left : 100%;
+}
+
+[dir=rtl] .dropdownVertical ul{
+  left  : auto;
+  right : 100%;
+}
+
+.dropdownJavaScript li:hover > ul{
+  display : none;
+}
+
+.dropdownJavaScript li.dropdownOpen > ul{
+  display : block !important;
+}
+
+/************************************************************
+*                   simple dropdown list. STYLINGS                    *
+************************************************************/
+ // initialise the drop-down menus
+runOnLoad(Dropdown.initialise);
+.combobox {
+ background-color: #FFFFFF;
+ color: #0000FF;
+ font-size: 10pt;
+ font-family: arial;
+ font-weight: bold;
+}
+
+#dd {
+  margin-left: 25%;
+  padding: 0 0 20px 0;
+}
+
+#dd li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  font: bold 11px arial;
+}
+
+#dd li a.menu {
+  display: block;
+  text-align: center;
+  background: #5970B2;
+  padding: 4px 10px;
+  margin: 0 1px 0 0;
+  color: #0000FF;
+  width: 60px;
+  text-decoration: none;
+}
+
+#dd li a.menu:hover {
+  background: #49A3FF;
+}
+
+.submenu {
+  background: #EAEBD8;
+  border: 1px solid #5970B2;
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+}
+
+.submenu a {
+  display: block;
+  font: 11px arial;
+  text-align: left;
+  text-decoration: none;
+  padding: 5px;
+  color: #2875DE;
+}
+
+.submenu a:hover {
+  background: #49A3FF;
+  color: #FFF;
+}
+
+/************************************************************
+*                   TABLE TABLE STYLINGS                    *
+************************************************************/
+       .MainPageTable {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 20px;
+                font-weight : bold;
+                vertical-align : top; 
+                background : #66FFFF;
+                color      : black;
+        }
+
+       .HeaderCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top; 
+                background : #66FFFF;
+                
+        }
+       .TopHeaderBarStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top;
+                background : #66FFFF;
+        }
+
+/************************************************************
+*                   TABLE HEADER STYLINGS                   *
+************************************************************/
+
+       .tableHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                vertical-align : top; 
+                background : #66FFFF;
+        }
+/************************************************************
+*                   SECTION HEADER STYLINGS                 *
+************************************************************/
+
+       .sectionHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                font-weight : bold;
+                color : #48A0FF;
+                background : #66FFFF;
+        }
+/************************************************************
+*                   TABLE header login CELL STYLINGS                 *
+************************************************************/
+
+       .tablePageTopLoginCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                vertical-align : top; 
+           	text-align : right;
+        }
+/************************************************************
+*                   TABLE CELL STYLINGS                 *
+************************************************************/
+
+       .tablePageTopWelcomeCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : black;
+                vertical-align : top; 
+           	text-align : left;
+        }
+        
+        .HeaderTableStyle{
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 20px;
+                color : black;
+                vertical-align : top; 
+           	text-align : left;
+        }
+
+/************************************************************
+*                   TABLE CELL STYLINGS                 *
+************************************************************/
+
+       .tableCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                 background :  #CCFFFF;
+               color : #48A0FF;
+                vertical-align : top;
+        }
+
+/************************************************************
+*                   TABLE ODD CELL STYLINGS                 *
+************************************************************/
+
+       .tableOddCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                background : #66FFFF;
+                color : #48A0FF;
+                vertical-align : top; 
+        }
+/************************************************************
+*                   TABLE ROW HEADER STYLINGS               *
+************************************************************/
+
+       .tableRowHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : #46A2FF;
+                background : #66FFFF;
+                vertical-align : top; 
+                text-align : left
+        }
+/************************************************************
+*                   TABLE Odd ROW STYLINGS                      *
+************************************************************/
+
+ 
+       .tableOddRowStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top; 
+        }
+
+/************************************************************
+*                   TABLE ROW STYLINGS                      *
+************************************************************/
+
+       .tableRowStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top; 
+        }
+
+/************************************************************
+*               APPLICATION SUB MENU STYLINGS               *
+************************************************************/
+
+       .applicationSubMenuStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 10px;
+                color : black;
+                background : #33589F;
+        }
+
+       A.applicationSubMenuLinkStyle:link {
+           color: black;
+       }
+
+       A.applicationSubMenuLinkStyle:visited {
+           color: black;
+       }
+
+       A.applicationSubMenuLinkStyle:active {
+           color:black;
+       }
+
+/************************************************************
+*                   Warning box                             *
+************************************************************/
+
+       .warning {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 18px;
+                color : red;
+                background : #E5E5E5;
+                text-align: center; 
+                vertical-align : top;
+                border: medium green;
+                border-style: dashed;
+        }
+
+/************************************************************
+*                   Left Side Bar STYLINGS                      *
+************************************************************/
+       .LeftNavTableStyle {
+                BACKGROUND:  #CCFFFF;
+                WIDTH:       100%;
+                BORDER: 0;
+ }
+      .NavtableHeaderCellStyle {
+                background :  #CCFFFF;
+                color : #0000FF;
+                vertical-align : top;
+                text-align: center;
+ }
+       .NavTableCellStyle {
+              border: 0;
+              background: #CCFFFF;
+              WIDTH:  20%;
+               text-align : left;
+         }
+       .NavtableCellStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                 background :  #CCFFFF;
+               color : #48A0FF;
+                vertical-align : top;
+        }
+
+        .NavNewsCellStyle {
+ 
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 14px;
+                /*background :  #CCFFFF;*/
+                color : black;
+                vertical-align : top;
+                text-align : left;
+       }
+      font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+
+      font.LogOnStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #FFCC00;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+
+      font.AddButtonStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #FFCC00;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+        
+      font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+      font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+      font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+      font.LeftSideBarHeaderStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 15px;
+                color : #0000FF;
+                background : #CCFFFF;
+                vertical-align : top;
+                text-align : center;
+        }
+       font.LeftSideBarNavStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 10px;
+                color : #43A8A8;
+                background : #CCFFFF;
+                vertical-align : top; 
+                text-align : right;
+        }
+
+       font.LeftSideBarNavHelpDeskStyle {
+                font-family : Verdana, Helvetica, sans-serif;
+                font-size : 20px;
+                color : #43A8A8;
+                background : #CCFFFF;
+                vertical-align : top; 
+                text-align : right;
+        }

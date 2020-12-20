@@ -1,0 +1,71 @@
+<h2>Virtual Private Network</h2> 
+<p>What is a virtual private network? The basic idea is you log into the VPN with a separate app. now all Internet requests are routed through that application. The transmitted data is encrypted. At least on the sending end. The receiving end Is not unless it is HTTPS. Your Ip address has been changed to a remote ip. Some systems allow you to select the exit country. As all data is encrypted though your access provider its contents is secure from monitoring by your ISP. Once in the VPN it is advertised as not logged with a few exceptions. Once in the VPS of course it can be decrypted and monitored.</p>
+
+<p><a href='https://en.wikipedia.org/wiki/Virtual_private_network' target='_blank'>Virtual private network Wikipedia</a></p>
+<p>Each of the listed </p>
+
+<ul>
+<li><h2>Private Internet Access</h2>
+<p><a href='http://www.pcmag.com/article2/0,2817,2414799,00.asp' target='_blank'><img src='https://www.dropbox.com/sh/0frlezmi2hltw3x/AADo79KQxvO2JkQY63AWLUoGa/Banners/3%20Y%20Deal%20all%20languages/en-2-300x250.png?dl=0' alt=''></a></p>
+</li>
+<li><h3><a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=1800" target="_blank"><img src="/images/csc/christmas-2020-a-GDN-1200x628.jpg" alt="">NordVPN</a></h3>
+
+<h4>Editor's Choice.</h4><p>Offers. Encrypted data connection, P2P, remote ip and manyothers. Based in Panama, Great support.  Most expensive of the group we feel so far it is the best value.</p>
+For details click the banner. 
+<!-- Javascript Ad Tag: 57 -->
+<div id='nordvpn57hKtCLX'></div>
+
+<a href='https://go.nordvpn.net/aff_c?offer_id=15&aff_id=1800&url_id=902.'><img src='https://media.go2speed.org/brand/files/nordvpn/15/20160616034751-NordVPN_970x250_1.gif' width='970' height='250' border='0' /></a><img src='https://go.nordvpn.net/aff_i?offer_id=15&file_id=164&aff_id=1800&url_id=263' width='1' height='1' /></a>
+</li>
+
+<li>
+<h3>VYRVPN</h3>
+
+<a href='https://xvp.akamaized.net/assets/public/affiliate-assets/banner/privacy/expressvpn-privacy-square-download-anonymously-d17c8c913227af20cb09ff03f634ce2a.jpg'></a>
+</li>
+
+<li><h3>GoldenFrog</h3>
+
+<table><tr><td><a href='http://links.goldenfrog.mkt6294.com/ctt?ms=MTc3MTE0NjES1&kn=8&r=MTkxNzM2NzUxNzk2S0&b=0&j=MTk0MDkxNjA2NgS2&mt=1&rt=0' width='728' height='90' border='0' /><img src='http://powerhouse.go2cloud.org/aff_i?offer_id=78&file_id=6393&aff_id=3573' width='1' height='1'> GoldenFrog</a>
+</td></tr><tr><td>
+
+
+
+<h2>Our ongoing adventure in setting up and using Goldenfrog.</h2>
+<p>Key points so far.</p>
+
+<ul>
+<li>Initial setup. Clicking banner takes you to the order screen. There is a bit of confession here as the banner says 3 months free but the discount is in a %. This is luckily a limitation of the billing interface. There is a 3 day free trial. The process to sign up here is easy and you have choices of how to pay though all are subscriptions. </li>
+<li>You then go back to the golden frog. where you get a message that an email has been sent. If not contact support. The email did not arrive in 24 hours. I did get support to send an email Which gave links to all the basic info that you will need to set up your devices.</li>
+<li>Android setup was a snap. Install the app. It give you options of which server you would like to log into. Deflect is fastest. You get a list of all your apps and how they connect to the Internet. Ie through the vpn or not. It sets them all to VPN. Not sure if it launches the vpn if you click your mail app.</li>
+<li>Linux was a bit more difficult. No link for instructions is given in the control panel. Searching for Linux gives links to all article on the topic.<a href='https://support.goldenfrog.com/hc/en-us/articles/227258228-VyprVPN-OpenVPN-Setup-for-Linux-Ubuntu-' target='_blank'>Ubuntu</a> Once you install openVPN Linux. I just used synaptic then set up a VPN in the network system to point to the default gateway given in the Ubuntu link. You will likely have to add a new VPN setup for each server you wish to connect to.</li>
+
+</ul>
+<h3>Pros </h3>
+<ul>
+<li>Chat support</li>
+<li>Lower Price</li>
+<li>Good network of servers</li>
+</ul>
+<h3>Cons</h3>
+<ul>
+<li>No indication of money back guarantee</li>
+<li>No chat in Linux</li>
+<li>Uses Google analytics etc</li>
+<li>No email sent from application Have to use support. So far one day of free trial gone in setup. </li>
+</ul>
+
+</td></tr></table>
+
+</li>
+<li>
+<a href='https://www.privateinternetaccess.com/pages/buy-vpn/shanta' title='Buy VPN'>
+<img alt='Buy VPN' border='0' src='https://www.privateinternetaccess.com//affiliates/banners/300x250.png'>
+</a></li> 
+
+<li><a href='https://www.linkev.com/?a_aid=CSC' target='_blank'><img src='https://xvp.akamaized.net/assets/public/affiliate-assets/banner/high-speed/high-speed-premium-vpn-square-10c65c110420012a1fa13f4fbb3eb74c.jpg' alt=''></a></li>
+
+
+
+</ul>
+
